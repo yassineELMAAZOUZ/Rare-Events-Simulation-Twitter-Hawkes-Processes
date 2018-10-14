@@ -1,0 +1,40 @@
+
+"""
+Created on Fri May 11 14:15:21 2018
+@authors: Yassine EL MAAZOUZ and Amine Bennouna
+
+"""
+
+	
+Ogata_Base_Code: 	 		 Contains the main tool to simulate a Hawkes process alongside other useful functions.
+
+
+Ogata_Features_Base_Code:  	  	 The same as Ogata_Base_Code but with features added to the model.
+
+
+ProbabilityEstimator:        		 Contains a procedure that can estimate the probability for a process to go beyond a certain value but changing the parameter lambda_0.
+
+
+ProbabilityEstimatorWithFeatures:	 Same as ProbabilityEstimator but with features.
+
+
+ParametersEstimator:              	 Contains a procedure that estimates the model parameters base on given data by maximizing the likelyhood functions with gradient_descent.
+
+
+Distribution Drawings:   		 A file that draws distributions for two parameters in order to campare them and have an idea of what parameters to choose to get good results.
+
+Distribution Drawings:   		 A file that draws trajectories of M process for two parameters in order to campare them and have an idea of what parameters to choose to get good results.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
